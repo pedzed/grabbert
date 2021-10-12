@@ -96,10 +96,9 @@ fn process(url: &str) -> Result<(), Error> {
         Some(x) => x,
     };
     println!("Stream found: `{}`.", &variant.uri);
-    println!("{:#?}", &variant.uri);
 
-    println!("Downloading to mp4...");
     let output_destination = &format!("{}.mp4", dumpert_item.title);
+    println!("Downloading to `{}`...", output_destination);
 
     Command::new("ffmpeg")
         .args(["-i", &variant.uri])
