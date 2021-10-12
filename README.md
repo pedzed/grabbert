@@ -2,7 +2,7 @@
 
 A basic video downloader written in Rust.
 
-Its purpose is currently only to download videos from dumpert.nl.
+Its purpose is currently only to download videos from https://dumpert.nl.
 
 ## Pre-requisites
 - ffmpeg
