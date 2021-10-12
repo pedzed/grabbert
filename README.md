@@ -2,7 +2,7 @@
 
 A basic video downloader written in Rust.
 
-Its purpose is currently only to download videos from https://dumpert.nl.
+Its purpose is to download videos from https://dumpert.nl. It is made merely to play a bit with Rust, inspired by a silly video I wanted to know how to download (of type `m3u8`, which Dumpert uses).
 
 ![Grabbert demo - Dumpert video downloader](docs/demo.png)
 
